@@ -40,6 +40,10 @@
 
         {% include projects.html %}
 
+        {% if site.technologies %}
+          {% include technologies.html %}
+        {% endif %}
+
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
